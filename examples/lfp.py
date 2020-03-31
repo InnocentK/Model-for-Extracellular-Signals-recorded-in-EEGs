@@ -70,4 +70,5 @@ for i in range(5):
     plot(M.t/ms,Mlfp.v[i]/mV)
 ylabel('LFP (mV)')
 xlabel('Time (ms)')
+plt.legend(lfp.y)
 show()

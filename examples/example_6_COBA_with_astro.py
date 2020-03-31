@@ -265,7 +265,7 @@ run(duration, report='text')
 ################################################################################
 # Plot of Spiking activity
 ################################################################################
-plt.style.use('figures.mplstyle')
+#plt.style.use('figures.mplstyle')
 
 fig, ax = plt.subplots(nrows=3, ncols=1, sharex=True, figsize=(6.26894, 6.26894*0.8),
                        gridspec_kw={'height_ratios': [1, 6, 2],
