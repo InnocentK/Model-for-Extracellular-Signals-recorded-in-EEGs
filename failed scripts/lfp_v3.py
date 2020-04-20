@@ -2,7 +2,7 @@ from brian2 import *
 
 
 defaultclock.dt = 0.02*ms
-morpho = Cylinder(x=[0, 10]*cm, diameter=2*250*um, n=1000, type='axon')
+morpho = Cylinder(x=[0, 10]*cm, y=[0, 10]*cm, z=[0, 10]*cm, diameter=2*250*um, n=4000, type='axon')
 
 El = 11*mV      # Leak reversal potential
 ENa = 115*mV
@@ -31,7 +31,7 @@ gNa : siemens/meter**2
 
 neuron = SpatialNeuron(morphology=morpho, model=eqs, Cm=1*uF/cm**2,
                        Ri=35.4*ohm*cm, method="exponential_euler")
-neuron.v = 18*mV        # Firing threshold
+neuron.v = 0*mV
 neuron.h = 1
 neuron.m = 0
 neuron.n = .5
