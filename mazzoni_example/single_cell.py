@@ -117,46 +117,46 @@ def simulate_cells_serially(stimolo, \
         print("Setting up thalamic synapses")
 
         # Load thalamic input spike times, 1st column time, 2nd column post cell id
-        #   print "Loading thalamic input spikes"
-#         thalamic_spikes_filename = population_parameters['input_dir']+'ths/th_'+str(stimolo)+'_'+str(cell_id)+'.out'
+        print "Loading thalamic input spikes"
+        # thalamic_spikes_filename = population_parameters['input_dir']+'ths/th_'+str(stimolo)+'_'+str(cell_id)+'.out'
 
-#         print thalamic_spikes_filename
-#
-#         thalamic_spike_times = np.loadtxt(thalamic_spikes_filename)
+        # print thalamic_spikes_filename
 
-#         synapse_ids =\
-#                  np.random.randint(0,n_thalamic_synapses,len(thalamic_spike_times))
+        # thalamic_spike_times = np.loadtxt(thalamic_spikes_filename)
 
-#         for i_synapse in xrange(n_thalamic_synapses):
-#             syn_idx = int(cell.get_rand_idx_area_norm(\
-#                         **synapse_position_parameters[thalamic_synapse_type]))
-#             synapse_parameters[thalamic_synapse_type].update({'idx':syn_idx})
-#             synapse = LFPy.Synapse(cell, \
-#                             **synapse_parameters[thalamic_synapse_type])
-#             spike_times = \
-#                     thalamic_spike_times[np.where(synapse_ids==i_synapse)[0]]
-#             synapse.set_spike_times(spike_times)
+        # synapse_ids =\
+        #          np.random.randint(0,n_thalamic_synapses,len(thalamic_spike_times))
+
+        # for i_synapse in xrange(n_thalamic_synapses):
+        #     syn_idx = int(cell.get_rand_idx_area_norm(\
+        #                 **synapse_position_parameters[thalamic_synapse_type]))
+        #     synapse_parameters[thalamic_synapse_type].update({'idx':syn_idx})
+        #     synapse = LFPy.Synapse(cell, \
+        #                     **synapse_parameters[thalamic_synapse_type])
+        #     spike_times = \
+        #             thalamic_spike_times[np.where(synapse_ids==i_synapse)[0]]
+        #     synapse.set_spike_times(spike_times)
 
         print("Setting up external synapses")
 
         # Load external cortico-cortical input rate
-        #  print "Loading external input spikes"
-#         external_spikes_filename = population_parameters['input_dir']+'ccs/cc_'+str(stimolo)+'_'+str(cell_id)+'.out'
-#         external_spike_times = np.loadtxt(external_spikes_filename)
-#
-#         synapse_ids =\
-#              np.random.randint(0,n_external_synapses,len(external_spike_times))
-#
-#         for i_synapse in xrange(n_external_synapses):
-#             syn_idx = int(cell.get_rand_idx_area_norm(\
-#                         **synapse_position_parameters[external_synapse_type]))
-#
-#             synapse_parameters[external_synapse_type].update({'idx':syn_idx})
-#             synapse = LFPy.Synapse(cell,\
-#                             **synapse_parameters[external_synapse_type])
-#             spike_times =\
-#                 external_spike_times[np.where(synapse_ids==i_synapse)[0]]
-#             synapse.set_spike_times(spike_times)
+        # print "Loading external input spikes"
+        # external_spikes_filename = population_parameters['input_dir']+'ccs/cc_'+str(stimolo)+'_'+str(cell_id)+'.out'
+        # external_spike_times = np.loadtxt(external_spikes_filename)
+
+        # synapse_ids =\
+        #      np.random.randint(0,n_external_synapses,len(external_spike_times))
+
+        # for i_synapse in xrange(n_external_synapses):
+        #     syn_idx = int(cell.get_rand_idx_area_norm(\
+        #                 **synapse_position_parameters[external_synapse_type]))
+
+        #     synapse_parameters[external_synapse_type].update({'idx':syn_idx})
+        #     synapse = LFPy.Synapse(cell,\
+        #                     **synapse_parameters[external_synapse_type])
+        #     spike_times =\
+        #         external_spike_times[np.where(synapse_ids==i_synapse)[0]]
+        #     synapse.set_spike_times(spike_times)
 
 
         # Run simulation
@@ -170,7 +170,7 @@ def simulate_cells_serially(stimolo, \
 
         # Plot
         print(np.shape(np.sum(electrode.LFP, axis=0)))
-        plt.plot(np.sum(electrode.LFP, axis=0))
+        plt.plot(np.mean(electrode.LFP, axis=0))
         plt.title("LFP" + str(cell_id))
         plt.xlabel('Time (ms)')
         plt.ylabel('LFP (mV)')

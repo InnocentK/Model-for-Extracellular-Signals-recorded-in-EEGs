@@ -165,6 +165,7 @@ synapse_position_parameters['external_inh'] = {
 }
 
 Z = np.arange(-400,400,25)
+X = np.arange(-4,4,0.25)
 
 electrode_parameters = {
     'sigma' : 0.3,      # extracellular conductivity

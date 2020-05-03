@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e84ef-847e-4ea3-8039-ff95adf6ae52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/analyze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/Cmatrix_15.1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/INTsXYZ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/PCsXYZ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/exp2isyn.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/int1.hoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/pyr1.hoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/ref_sim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/results/input15_output_data_rank0.p15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/results/input15output_data.p15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/single_cell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/spiketimes_15.1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/.libs/exp2isyn.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/.libs/libnrnmech.0.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/.libs/libnrnmech.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/.libs/libnrnmech.lai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/.libs/libnrnmech.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/.libs/mod_func.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/exp2isyn.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/exp2isyn.lo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/exp2isyn.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/libnrnmech.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/mod_func.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/mod_func.lo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazzoni_example/x86_64/special" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/input15_output_data_rank0.p15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/input15output_data.p15" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BME790-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BME790-Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfp_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/failed scripts/lfp_v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfp_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/failed scripts/lfp_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lfp_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/failed scripts/lfp_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazzoni_example/ref_sim.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazzoni_example/ref_sim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazzoni_example/single_cell.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazzoni_example/single_cell.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
